@@ -1,0 +1,14 @@
+mode: set
+nima-test/deviceView/main.go:15.98,25.16 5 1
+nima-test/deviceView/main.go:29.2,30.16 2 1
+nima-test/deviceView/main.go:33.2,33.18 1 1
+nima-test/deviceView/main.go:37.2,38.16 2 1
+nima-test/deviceView/main.go:42.2,42.47 1 1
+nima-test/deviceView/main.go:25.16,27.3 1 1
+nima-test/deviceView/main.go:30.16,32.3 1 0
+nima-test/deviceView/main.go:33.18,35.3 1 1
+nima-test/deviceView/main.go:38.16,40.3 1 0
+nima-test/deviceView/main.go:45.65,48.25 3 0
+nima-test/deviceView/main.go:51.2,53.28 2 0
+nima-test/deviceView/main.go:48.25,50.3 1 0
+nima-test/deviceView/main.go:56.13,58.2 1 0
