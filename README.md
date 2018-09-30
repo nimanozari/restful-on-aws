@@ -19,7 +19,7 @@ The API accepts the following JSON requests and produces the corresponding HTTP 
 HTTP POST
 URL: https://<api-gateway-url>/api/devices
 
-####Response 1 - Success:
+#### Response 1 - Success:
 HTTP 201 Created
 Body (application/json):
 {
@@ -30,21 +30,21 @@ Body (application/json):
   "serial": "A020000102"
 }
 
-####Response 1 - Failure 1:
+#### Response 1 - Failure 1:
 HTTP 400 Bad Request
 If any of the payload fields are missing, response body will include a descriptive error message for the client to be able to detect the problem.
 
-####Response 1 - Failure 2:
+#### Response 1 - Failure 2:
 HTTP 500 Internal Server Error
 If any exceptional situation occurs on the server side.
 
 
-###Request 2:
+### Request 2:
 HTTP GET
 URL: https://<api-gateway-url>/api/devices/{id}
 Example: GET https://api123.amazonaws.com/api/devices/id1
 
-####Response 2 - Success:
+#### Response 2 - Success:
 HTTP 200 OK
 Body (application/json):
 {
@@ -55,11 +55,11 @@ Body (application/json):
   "serial": "A020000102"
 }
 
-####Response 2 - Failure 1:
+#### Response 2 - Failure 1:
 HTTP 404 Not Found
 If the request id does not exist.
 
-####Response 2 - Failure 2:
+#### Response 2 - Failure 2:
 HTTP 500 Internal Server Error
 If any exceptional situation occurs on the server side.
 
