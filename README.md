@@ -41,7 +41,9 @@ If any exceptional situation occurs on the server side.
 
 ### Request 2:
 HTTP GET
+
 URL: https://<api-gateway-url>/api/devices/{id}
+
 Example: GET https://api123.amazonaws.com/api/devices/id1
 
 #### Response 2 - Success:
