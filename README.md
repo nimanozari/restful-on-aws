@@ -16,8 +16,8 @@ The API accepts the following JSON requests and produces the corresponding HTTP 
 
 
 ### Request 1:
-HTTP POST
-URL: https://<api-gateway-url>/api/devices
+`HTTP POST
+URL: https://<api-gateway-url>/api/devices`
 
 #### Response 1 - Success:
 HTTP 201 Created
